@@ -1,0 +1,152 @@
+body, html{
+/*	background-color: #f6efeb;*/
+/*    overflow: hidden;*/
+    
+}
+
+body {
+    background-image: url('specs.jpg');
+
+    /* Full height */
+    height: 300px; 
+    /* Create the parallax scrolling effect  */
+    background-attachment: fixed; 
+    background-position: 50% 245px;
+    background-repeat: no-repeat;
+    background-size: 93%;
+}
+
+.logoimg{
+	display: block;
+	width: 30%;
+	margin: auto;
+}
+#logo {
+    margin-left: 30%;
+}
+table{
+	width: 100%;
+}
+
+.scroll {
+/*    background-color: #f6efeb;*/
+    width: 100%;
+    height: 1200px;
+    overflow: hidden;
+    padding: 0 15px;
+    box-sizing: border-box;
+    padding-bottom: 200px;
+    margin-bottom: 800px;
+}
+
+#basket{
+    width: 84px;
+    height: 45px;   
+    background: #acb4bb;
+    border: none;
+    color: #721a45;   
+    font-size:14px;
+    font-weight:700;
+    border: 2px solid;
+    border-radius: 25px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+#contactlogo{
+    width: 5px; 
+    height: 5px;
+}
+ .btn-group button {
+    background-color: #22688b;
+    border: 1px #22688b ; 
+    color: #f6efeb; /* White text */
+    padding: 10px 0; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: 20%;
+}
+
+/*Dropdown*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 90px;
+    font-size: 11.5px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 33px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 80px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #22688b}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer{
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+a {
+
+    color: #721a45;
+}
+.logincontainer {
+    width: 600px;
+    text-align:center;
+    margin: 0 auto;
+    }
+
+
+#purpletext {
+    color: #721a45;
+}
+#purplebutton {
+    background-color: #721a45;
+    color: white;
+    width:90px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+.greybox {
+
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    box-shadow: 10px 10px 5px #888888;
+    margin: auto;
+    padding: 10px;
+}
+
+.gooogleLogo {
+    margin-top: 50px;
+}
+
+.content {
+    position: relative;
+    top: 555px;
+    background: #22688b;
+    padding: 50px 0;
+    color: white
+    
+}
+
+/*.content1 {
+    top: 700px;
+}
