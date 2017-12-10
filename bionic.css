@@ -128,7 +128,7 @@ a { /* Footer text colour*/
 .bgimg { /* Welcome page image */
     background-image: url('qq.jpg');
     height: 100%;
-    -webkit-filter: graysca;e(100%);
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     background-position: center;
     background-size: cover;
